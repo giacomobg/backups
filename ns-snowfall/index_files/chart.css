@@ -1,0 +1,85 @@
+
+@font-face{
+	font-family:'Reg.Modn Regular';
+	src:url('https://nsmg-projects-public.s3.eu-west-2.amazonaws.com/common/fonts/Reg_Modn-RegularWEB.woff') format('woff');
+	font-style:normal;font-weight:normal
+}
+
+@font-face{
+	font-family:'Reg.Modn Bold';
+	src:url('https://nsmg-projects-public.s3.eu-west-2.amazonaws.com/common/fonts/Reg_Modn-BoldWEB.woff') format('woff');
+	font-style:normal;font-weight:normal
+}
+
+.nsmg-chart {
+  min-width: 280px;
+  width: 100%;
+  font-size: 18px;
+  line-height: 28px;
+  font-family: "Reg.Modn Regular", sans-serif;    
+  border-top: 1px solid rgba(37, 37, 36, 0.25);
+  margin-bottom: 1rem;
+  padding-bottom: 30px;
+  background-image: url("https://nsmg-projects-public.s3.eu-west-2.amazonaws.com/common/NewStatesman_logo.svg");
+  background-repeat: no-repeat;
+  background-size: 98px;
+  background-position: 100% 99%;
+  color: #252524;
+}
+
+.nsmg-chart > p {
+  margin-bottom: 0 !important;
+}
+
+.nsmg-h3 {
+  	margin: 0;
+    padding: 0;
+    font-size: 1.333em;
+    line-height: 1.333em;
+    margin-top: 0.888em;
+    font-family: 'Reg.Modn Bold', sans-serif;
+}
+
+.nsmg-h4 {
+	  margin: 0.222em 0 0.888em;
+    padding: 0;
+    font-size: 0.888em;
+    line-height: 1.333em;
+    color: #252524;
+    opacity: 0.8;
+    font-weight: normal;
+    font-family: 'Reg.Modn Regular', sans-serif;
+}
+
+.nsmg-h5 {
+	margin: 0;
+	padding: 0;
+	font-size: 0.667em;
+}
+
+.source-text {
+    color: #7f7f7f;
+    margin: 8px 0;
+    font-size: 0.667em;
+    line-height: 1.667em;
+    font-family: 'Reg.Modn Regular', sans-serif;
+}
+.source-text a {
+	color: #7f7f7f;
+}
+.source-text a:hover {
+    color: #252524;
+    text-decoration: underline;
+    text-underline-offset: 4px;
+    text-decoration-color: #d82d1d;
+}
+
+.nsmg-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+  margin-top: 1em;
+}
+
+.nsmg-chart.sotn {
+  border-top: 0;
+}
